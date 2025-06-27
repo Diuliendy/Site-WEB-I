@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  background: linear-gradient(to right, lightgreen, mediumseagreen);
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+header {
+  background-color: green;
+  color: white;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+.principal {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  flex-grow: 1; 
+}
+
+
+.secao {
+  flex: 0 0 100vw;
+  min-height: 70vh;
+  background-color: green;
+  color: aliceblue;
+  scroll-snap-align: start;
+  padding: 40px;
+  padding-top: 160px;
+  height: 100vh;
+  font-size: 20px;
+}
+
+
+footer {
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#Sobre {
+    background-image: url('Alan_bussola.png');
+      background-size: cover;        
+      background-position: center;   
+      background-repeat: no-repeat;  
+      
+      
+}
+
+
+
+#Hobbies{
+    background-image: url('LEITURA.png');
+      background-size: cover;        
+      background-position: center;   
+      background-repeat: no-repeat;  
+      
+
+}
+#Trajetoria{
+    background-image: url('Palestra.png');
+      background-size: cover;        
+      background-position: center;   
+      background-repeat: no-repeat;  
+      
+
+}
+#IFCE{
+    background-image: url('f2mm.png');
+      background-size: cover;        
+      background-position: center;   
+      background-repeat: no-repeat;  
+      
+
+}
+
+
+#LP{
+     background-image: url('LP.jpeg');
+      background-size: cover;        
+      background-position: center;   
+      background-repeat: no-repeat; 
+      width: 20;   
+  height: 95px;     
+  padding: 10px;   
+  color: white;     
+  display: inline-block; 
+  border-radius: 6px; 
+}
+
+#CL{
+    background-image: url('comu.png');
+      background-size: cover;        
+      background-position: center;   
+      background-repeat: no-repeat; 
+      width: 20;   
+  height: 95px;     
+  padding: 10px;   
+  color: white;     
+  display: inline-block; 
+  border-radius: 6px; 
+}
+p{
+border: 2px solid white;
+  padding: 10px;
+  display: inline-block;
+  background-color: rgba(0, 128, 0, 0.6);
+} 
